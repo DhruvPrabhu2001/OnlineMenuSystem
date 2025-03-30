@@ -1,0 +1,93 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Buttons & Focus Elements */
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus,
+.form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #00bcd4;
+}
+
+/* Dark Theme */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1e1e1e;
+    border-bottom: 2px solid #00bcd4;
+}
+
+/* Links */
+a {
+    color: #00bcd4;
+}
+
+    a:hover {
+        color: #00ffff;
+    }
+
+/* Buttons */
+.btn-primary {
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+
+    .btn-primary:hover {
+        background-color: #00a0b4;
+        border-color: #008ba3;
+    }
+
+/* Forms */
+.form-control {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #444;
+}
+
+    .form-control:focus {
+        background-color: #252525;
+        color: white;
+        border: 1px solid #00bcd4;
+    }
+
+/* Card Styling */
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+}
+
+.card-header {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #00bcd4;
+}
+
+/* Image Styling */
+.fixed-image-height {
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    width: 100%; /* Ensures the image takes the full width of the container */
+}
